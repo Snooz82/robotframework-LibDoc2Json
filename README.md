@@ -2,6 +2,10 @@
 # LibDoc2Json
 Small python class which converts Robot Framework Libdoc XML Files to JSON that is compatible with VSCode plugin "Robot Framework Intellisense"
 
+**Installation**:
+
+    pip install -e <path to source folder>
+
 **Usage**:
 
     python -m libdoc2json <LIBRARY or *.robot or *.py> <MyLibrary.json>
