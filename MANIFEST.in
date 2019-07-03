@@ -1,0 +1,5 @@
+include LICENSE
+recursive-include src *.py
+
+# added by check_manifest.py
+recursive-include src *.py

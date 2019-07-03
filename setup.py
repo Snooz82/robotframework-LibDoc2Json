@@ -1,15 +1,18 @@
 from setuptools import setup
 from setuptools import find_packages
 
+with open("README.md", "r", encoding='utf-8') as fh:
+    long_description = fh.read()
+
 setup(
     name="robotframework-libdoc2json",
-    version='0.1',
+    version='0.2',
     author="René Rohner(Snooz82)",
     author_email="snooz@posteo.de",
     description="A python module to create json for VSCode Robot Framework Intellisense.",
-    long_description="A python module to create json for VSCode Robot Framework Intellisense.",
+    long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://github.com/Snooz82/LibDoc2Json",
+    url="https://github.com/Snooz82/robotframework-LibDoc2Json",
     package_dir={'': 'src'},
     packages=find_packages('src'),
     classifiers=[
