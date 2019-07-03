@@ -6,7 +6,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name="robotframework-libdoc2json",
-    version='0.2',
+    version='0.4',
     author="René Rohner(Snooz82)",
     author_email="snooz@posteo.de",
     description="A python module to create json for VSCode Robot Framework Intellisense.",
