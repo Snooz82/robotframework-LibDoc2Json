@@ -4,7 +4,7 @@ Small python class which converts Robot Framework Libdoc XML Files to JSON that 
 
 **Installation**:
 
-    pip install -e <path to source folder>
+    pip install libdoc2json
 
 **Usage**:
 
@@ -16,13 +16,9 @@ The generated json file might be put o this folder and then be set up in setting
     [
         "BuiltIn-3.0.4",
         "SeleniumLibrary-3.2.0",
-        "Dialogs-3.0.4"
-        "MyLibrary"
+        "Dialogs-3.0.4",
+        {<put the generated json into this list>}
     ]
     
-Path to Library docs
 
-    <userprofile>\.vscode\extensions\tomiturtiainen.rf-intellisense-2.5.0\server\library-docs
-
-
-It is also possible to just put the complete JSON into the rfLanguageServer.libraries List.
+It is possible to just put the complete JSON into the rfLanguageServer.libraries List.
