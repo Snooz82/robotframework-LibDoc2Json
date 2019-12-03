@@ -4,7 +4,7 @@ Small python class which converts Robot Framework Libdoc XML Files to JSON that 
 
 **Installation**:
 
-    pip install libdoc2json
+    pip install robotframework-libdoc2json
 
 **Usage**:
 
