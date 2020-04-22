@@ -10,7 +10,7 @@ Small python class which converts Robot Framework Libdoc XML Files to JSON that 
 
     python -m libdoc2json <LIBRARY or *.robot or *.py> <MyLibrary.json>
 
-The generated json file might be put o this folder and then be set up in settings.json of vscode.
+The generated json file content has to be added to the settings.json of vscode.
 
     "rfLanguageServer.libraries": 
     [
@@ -19,6 +19,4 @@ The generated json file might be put o this folder and then be set up in setting
         "Dialogs-3.0.4",
         {<put the generated json into this list>}
     ]
-    
-
-It is possible to just put the complete JSON into the rfLanguageServer.libraries List.
+  
